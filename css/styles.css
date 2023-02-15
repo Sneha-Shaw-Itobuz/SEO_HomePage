@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins";
+  margin: 0 !important;
+  padding: 0;
+  /* font-size: 62.5%; */
+}
+
+.hide {
+  display: none !important;
+}
+
+h1 {
+  font-weight: bold;
+  position: relative;
+}
+
+.expert {
+  position: absolute;
+  right: 0;
+  color: #6f77f1;
+  border: 2px solid #6f77f1;
+  padding: 0.3rem;
+  rotate: -15deg;
+  font-size: 3rem;
+}
+
+.business {
+  background-color: rgba(242, 242, 242, 0.3);
+  background-image: url(/images/Vector\ 17.png), url(/images/Vector\ 18.png);
+  background-repeat: no-repeat;
+}
+
+.purple-text {
+  color: #6f77f1;
+}
+
+.hover-shadow:hover {
+  box-shadow: 5px 25px 37px rgba(2, 22, 5, 0.06);
+}
+
+.hover-card:hover{
+  background: #6F77F1 !important;
+  color: white !important;
+  cursor: pointer;
+  zoom: 105%;
+}
+
+.hover-shadow-team:hover {
+  box-shadow: 5px 25px 37px rgba(2, 22, 5, 0.06);
+  color:#6F77F1;
+  cursor: pointer;
+}
+
+.hover-icon:hover{
+  color:#6F77F1 !important;
+  cursor: pointer;
+}
+
+.circle{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #E9E9E9;
+}
+
+.active{
+  background-color: #6F77F1;
+}
+
+.hover-optimum:hover{
+  border-bottom: 2px solid #717AE0;
+}
+
+@media (min-width: 0px) {
+  .right {
+    height: 70vh;
+    background: url(/images/women.png) no-repeat center center/70%,
+      url(/images/Vector16.png) no-repeat center center/80%,
+      url(/images/Rectangle79.png) no-repeat center center/70%;
+  }
+
+  h1 {
+    font-size: 3rem !important;
+  }
+}
+
+@media (min-width: 800px) {
+  .top_section {
+    height: 80vh;
+  }
+
+  .right {
+    height: 100%;
+    background: url(/images/women.png) no-repeat left center/70%,
+      url(/images/Vector16.png) no-repeat left center/80%,
+      url(/images/Rectangle79.png) no-repeat center top/45%;
+  }
+  h1 {
+    font-size: 4rem !important;
+  }
+}
