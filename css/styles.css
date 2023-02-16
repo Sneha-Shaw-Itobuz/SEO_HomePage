@@ -7,8 +7,17 @@
   /* font-size: 62.5%; */
 }
 
+.nav-active:hover{
+  border-bottom: 2px solid #717AE0 !important;
+  transition: border 0.2s ease-out;
+}
+
 .hide {
   display: none !important;
+}
+
+.show{
+  display: flex;
 }
 
 h1 {
@@ -44,7 +53,8 @@ h1 {
   background: #6F77F1 !important;
   color: white !important;
   cursor: pointer;
-  zoom: 105%;
+  /* zoom: 105%; */
+  scale: 1.05;
 }
 
 .hover-shadow-team:hover {
