@@ -25,10 +25,12 @@
   <body>
     <!-- navbar starts -->
     <nav
-      class="navbar navbar-expand-lg navbar-light d-flex justify-content-between justify-content-md-around align-items-center p-2 position-relative"
+      class="navbar max-container navbar-expand-lg navbar-light d-flex justify-content-between justify-content-md-around align-items-center p-2 position-relative"
     >
-      <div class="fw-semi-bold fs-3">
-        <span>nuvosa</span> <img src="./images/nav_red_dot.png" alt="" />
+      <div class="fw-semi-bold fs-3 logo">
+        <a href="#" class="nav-link">
+          <span>nuvosa</span> <img src="./images/NavBar/nav_red_dot.png" alt=""
+        /></a>
       </div>
       <!-- mobile view starts -->
       <div class="d-block d-sm-none" id="menu">
@@ -46,8 +48,8 @@
         <li class="mb-3"><a class="nav-link" href="#">Contact</a></li>
         <li class="mb-3">
           <a href="#" class="btn border border-secondary px-3">Let's Talk</a>
-          <button class="btn bg-warning ms-2">
-            <img src="./images/Search.png" alt="" />
+          <button class="btn bg-warning button_hover ms-2">
+            <img src="./images/NavBar/Search.png" alt="" />
           </button>
         </li>
       </ul>
@@ -63,18 +65,18 @@
         <li class="nav-active"><a class="nav-link" href="#">Contact</a></li>
       </ul>
       <div class="d-none d-sm-flex">
-        <a href="#" class="btn border border-secondary px-3">
+        <a href="#" class="btn border border-secondary px-3 contact-hover">
           <span>Let's Talk</span>
         </a>
-        <button class="btn bg-warning ms-2">
-          <img src="./images/Search.png" alt="" />
+        <button class="btn bg-warning button_hover ms-2">
+          <img src="./images/NavBar/Search.png" alt="" />
         </button>
       </div>
     </nav>
     <!-- navbar ends -->
     <!-- top-section starts -->
     <section
-      class="w-100 d-flex flex-md-row flex-column justify-content-center align-items-center top_section"
+      class="w-100 max-container d-flex flex-md-row flex-column justify-content-center align-items-center top_section"
     >
       <div class="left w-100 p-md-5 p-2">
         <h1 class="fw-semibold">
@@ -94,12 +96,15 @@
         <div
           class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-start justify-content-center w-100"
         >
-          <button class="btn bg-warning text-black mb-2 w-50 me-4">
+          <a
+            href="#"
+            class="btn bg-warning button_hover text-black mb-2 w-50 me-4 button_hover"
+          >
             Get Started
-          </button>
+          </a>
           <div class="d-flex justify-content-center align-items-center">
             <img
-              src="./images/YouTube - Original.png"
+              src="./images/Top_Section/YouTube - Original.png"
               class="w-100 img-fluid"
               alt=""
             />
@@ -110,50 +115,56 @@
         <div class="creative shadow-sm position-absolute tp-0 bg-white p-2">
           <p>Our Creative Team</p>
           <img
-            src="./images/Ellipse 15.png"
+            src="./images/Top_Section/Ellipse 15.png"
             class="img-fluid position-absolute top-25"
             alt=""
             style="left: 5%"
           />
           <img
-            src="images/Ellipse 16.png"
+            src="./images/Top_Section/Ellipse 16.png"
             class="img-fluid position-absolute top-25"
             alt=""
             style="left: 20%"
           />
           <img
-            src="./images/Ellipse 17.png"
+            src="./images/Top_Section/Ellipse 17.png"
             class="img-fluid position-absolute top-25"
             alt=""
             style="left: 35%"
           />
           <img
-            src="./images/Ellipse 18.png"
+            src="./images/Top_Section/Ellipse 18.png"
             class="img-fluid position-absolute top-25"
             alt=""
             style="left: 50%"
           />
           <img
-            src="./images/plus-Ellipse.png"
+            src="./images/Top_Section/plus-Ellipse.png"
             class="img-fluid position-absolute top-25"
             alt=""
             style="left: 65%"
           />
         </div>
         <div class="w-100">
-          <img src="./images/Group 672.png" class="img-fluid w-100" alt="" />
+          <img
+            src="./images/Top_Section/Group 672.png"
+            class="img-fluid w-100"
+            alt=""
+          />
         </div>
       </div>
     </section>
     <!-- top section ends -->
     <!-- Social cards starts-->
-    <section class="d-flex flex-column flex-md-row vw-100 gap-5 p-md-5 p-2">
+    <section
+      class="d-flex flex-column flex-md-row vw-100 gap-5 p-md-5 p-2 max-container"
+    >
       <div class="shadow-sm p-3 d-flex flex-column justify-content-between">
         <div
-          class="card-top flex-column flex-lg-row text-center w-100 d-flex align-items-center"
+          class="card-top flex-column flex-lg-row text-center text-md-start w-100 d-flex align-items-center"
         >
           <div class="img me-md-3">
-            <img src="./images/smm.png" alt="" class="img-fluid" />
+            <img src="./images/management/smm.png" alt="" class="img-fluid" />
           </div>
           <h3 class="fw-light">Social Media Management</h3>
         </div>
@@ -164,15 +175,19 @@
         <div
           class="card-bottom position-relative w-100 justify-content-end d-flex"
         >
-       <a href="#" class="nav-link">  <i class="fas fa-arrow-right"></i></a>
+          <a href="#" class="nav-link"> <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
       <div class="shadow-sm p-3 d-flex flex-column justify-content-between">
         <div
-          class="card-top flex-column flex-lg-row text-center w-100 d-flex align-items-center"
+          class="card-top flex-column flex-lg-row text-center text-md-start w-100 d-flex align-items-center"
         >
           <div class="img me-md-3">
-            <img src="./images/Email_Marketing.png" alt="" class="img-fluid" />
+            <img
+              src="./images/management/Email_Marketing.png"
+              alt=""
+              class="img-fluid"
+            />
           </div>
           <h3 class="fw-light">Email Marketing</h3>
         </div>
@@ -183,15 +198,19 @@
         <div
           class="card-bottom position-relative w-100 justify-content-end d-flex"
         >
-       <a href="#" class="nav-link">  <i class="fas fa-arrow-right"></i></a>
+          <a href="#" class="nav-link"> <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
       <div class="shadow-sm p-3 d-flex flex-column justify-content-between">
         <div
-          class="card-top flex-column flex-lg-row text-center w-100 d-flex align-items-center"
+          class="card-top flex-column flex-lg-row text-center text-md-start w-100 d-flex align-items-center"
         >
           <div class="img me-md-3">
-            <img src="./images/SEO_management.png" alt="" class="img-fluid" />
+            <img
+              src="./images/management/SEO_management.png"
+              alt=""
+              class="img-fluid"
+            />
           </div>
           <h3 class="fw-light">SEO Management</h3>
         </div>
@@ -202,20 +221,22 @@
         <div
           class="card-bottom position-relative w-100 justify-content-end d-flex"
         >
-       <a href="#" class="nav-link">  <i class="fas fa-arrow-right"></i></a>
+          <a href="#" class="nav-link"> <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </section>
     <!-- Social cards ends -->
     <!-- optimisation starts-->
     <section
-      class="p-md-5 p-3 text-lg-start text-center "
-      style="background: url(./images/blue-circle.png) no-repeat right/30%"
+      class="p-md-5 p-3 text-lg-start text-center max-container"
+      style="
+        background: url(./images/optimise/blue-circle.png) no-repeat right/30%;
+      "
     >
       <div class="header">
-        <h4 class="py-3">
+        <h3 class="py-3 fs-1">
           Optimising your <span class="purple-text">Website</span>
-        </h4>
+        </h3>
         <p class="fw-light">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when It is a long .
@@ -224,14 +245,14 @@
       <div class="body d-flex gap-5 py-5 flex-column flex-lg-row px-md-5">
         <div
           class="d-flex justify-content-between bg-white align-items-center align-items-lg-start flex-column hover-optimum px-2 py-2 py-md-5"
-          style="background: url(./images/1.png) no-repeat 80%"
+          style="background: url(./images/optimise/1.png) no-repeat 80%"
         >
           <div class="card-header w-25">
             <img
-              src="./images/content.png"
+              src="./images/optimise/content.png"
               style="
-                background: url(./images/keyword-research-bg.png) no-repeat
-                  bottom/90%;
+                background: url(./images/optimise/keyword-research-bg.png)
+                  no-repeat bottom/90%;
               "
               class="w-100 h-100"
               alt=""
@@ -247,14 +268,14 @@
         </div>
         <div
           class="d-flex justify-content-between bg-white align-items-center align-items-lg-start flex-column hover-optimum py-2 py-md-5 px-2"
-          style="background: url(./images/2.png) no-repeat 80%"
+          style="background: url(./images/optimise/2.png) no-repeat 80%"
         >
           <div class="card-header w-25">
             <img
-              src="./images/keyword.png"
+              src="./images/optimise/keyword.png"
               style="
-                background: url(./images/content-optimisation-bg.png) no-repeat
-                  bottom/90%;
+                background: url(./images/optimise/content-optimisation-bg.png)
+                  no-repeat bottom/90%;
               "
               class="w-100 h-100"
               alt=""
@@ -270,14 +291,14 @@
         </div>
         <div
           class="d-flex justify-content-between bg-white align-items-center align-items-lg-start flex-column hover-optimum py-2 py-md-5 px-2"
-          style="background: url(./images/3.png) no-repeat 80%"
+          style="background: url(./images/optimise/3.png) no-repeat 80%"
         >
           <div class="card-header w-25">
             <img
-              src="./images/target.png"
+              src="./images/optimise/target.png"
               style="
-                background: url(./images/target-analysis-bg.png) no-repeat
-                  bottom/90%;
+                background: url(./images/optimise/target-analysis-bg.png)
+                  no-repeat bottom/90%;
               "
               class="w-100 h-100"
               alt=""
@@ -293,14 +314,14 @@
         </div>
         <div
           class="d-flex justify-content-between p-2 bg-white align-items-center align-items-lg-start flex-column hover-optimum py-2 py-md-5 px-2"
-          style="background: url(./images/4.png) no-repeat right"
+          style="background: url(./images/optimise/4.png) no-repeat right"
         >
           <div class="card-header w-25">
             <img
-              src="./images/continuous.png"
+              src="./images/optimise/continuous.png"
               style="
-                background: url(./images/continuous-testing-bg.png) no-repeat
-                  bottom/90%;
+                background: url(./images/optimise/continuous-testing-bg.png)
+                  no-repeat bottom/90%;
               "
               class="w-100 h-100"
               alt=""
@@ -317,76 +338,88 @@
       </div>
     </section>
     <!-- Business starts -->
-    <section class="business w-100 p-md-5 p-2">
+    <section class="business w-100 p-md-5 p-2 max-container">
       <div
-        class="container d-flex flex-column flex-md-row justify-content-around align-items-center w-100 m-auto"
+        class="container d-flex flex-column flex-md-row justify-content-around align-items-center w-75 m-auto"
       >
-        <div class="w-75 mb-5">
-          <h2 class="fw-semi-bold fs-1 w-100">
+        <div
+          class="w-100 mb-5 d-flex flex-column align-items-md-start align-items-center"
+        >
+          <h2 class="fw-semi-bold fs-1 w-100 text-center text-md-start">
             Perfect Solution For Your <span class="text-primary">Business</span>
           </h2>
-          <p class="my-3 fw-light">
+          <p class="my-3 fw-light text-center text-md-start">
             It is a long established fact that a reader will be distracted by
             the It is a long established . It is a long established fact that a
             reader will be distracted by the readable content of .
           </p>
-          <button class="btn bg-warning">Learn More</button>
+          <a href="#" class="btn bg-warning button_hover">Learn More</a>
         </div>
-        <div class="">
+        <div class="w-100">
           <img
-            src="./images/New Macbook Pro Mockup Front View.png"
+            src="./images/Business/New Macbook Pro Mockup Front View.png"
             class="w-100 m-md-3"
             alt=""
           />
         </div>
       </div>
     </section>
-    <!--BUSINESS  -->
-    <section class="p-4">
+    <!--Leads-->
+    <section class="p-4 max-container">
       <div
         class="container d-flex flex-column flex-md-row w-100 gap-2 p-2 p-md-5 m-auto text-center text-md-start"
       >
-        <div class="hover-shadow p-3 w-100 d-flex flex-column align-items-md-start align-items-center">
+        <div
+          class="hover-shadow p-3 w-100 d-flex flex-column align-items-md-start align-items-center"
+        >
           <div class="w-25 my-3">
-            <img src="./images/Lightning-alt.png" alt="" class="img-fluid" />
+            <img
+              src="./images/leads/Lightning-alt.png"
+              alt=""
+              class="img-fluid"
+            />
           </div>
           <h4 class="my-3">Grow Your Business</h4>
           <p class="my-3 fw-light">
             It is a long established fact that a reader will be distracted by.
           </p>
           <p class="purple-text">
-            <a href="#" class="nav-link">Read More...</a>
+            <a href="#" class="nav-link link-decor">Read More...</a>
           </p>
         </div>
-        <div class="hover-shadow p-3 w-100 d-flex flex-column align-items-md-start align-items-center">
+        <div
+          class="hover-shadow p-3 w-100 d-flex flex-column align-items-md-start align-items-center"
+        >
           <div class="w-25 my-3">
-            <img src="./images/Lightning.png" alt="" class="img-fluid" />
+            <img src="./images/leads/Lightning.png" alt="" class="img-fluid" />
           </div>
           <h4 class="my-3">Get Quality leads</h4>
           <p class="my-3 fw-light">
             It is a long established fact that a reader will be distracted by.
           </p>
           <p class="purple-text">
-            <a href="#" class="nav-link">Read More...</a>
+            <a href="#" class="nav-link link-decor">Read More...</a>
           </p>
         </div>
-        <div class="hover-shadow p-3 w-100 d-flex flex-column align-items-md-start align-items-center">
+        <div
+          class="hover-shadow p-3 w-100 d-flex flex-column align-items-md-start align-items-center"
+        >
           <div class="w-25 my-3">
-            <img src="./images/bookmark.png" alt="" class="img-fluid" />
+            <img src="./images/leads/bookmark.png" alt="" class="img-fluid" />
           </div>
           <h4 class="my-3">Drive more sales</h4>
           <p class="my-3 fw-light">
             It is a long established fact that a reader will be distracted by.
           </p>
           <p class="purple-text">
-            <a href="#" class="nav-link">Read More...</a>
+            <a href="#" class="nav-link link-decor">Read More...</a>
           </p>
         </div>
       </div>
     </section>
     <!--Choose  -->
-    <section class="bg-body-tertiary w-100 p-md-3 py-3">
-      <div class="container m-auto w-100">
+    <section class="bg-body-tertiary w-100 p-md-3 py-3 max-container">
+      <div class="container m-auto w-100 mt-2">
         <div
           class="header d-flex justify-content-center align-items-center flex-column w-100 text-center"
         >
@@ -404,27 +437,35 @@
             class="hover-shadow p-3 text-center bg-white d-flex justify-content-center align-items-center flex-column"
           >
             <div class="img">
-              <img src="./images/image 30.png" alt="" class="img-fluid" />
+              <img
+                src="./images/Choose/image 30.png"
+                alt=""
+                class="img-fluid"
+              />
             </div>
             <h4>See optimazadion</h4>
             <p class="fw-light my-3 text-center">
               It is a long established fact that a reader will be distracted
               by.It is a long established.
             </p>
-            <button class="btn bg-warning">Learn More</button>
+            <a href="#" class="btn bg-warning button_hover">Learn More</a>
           </div>
           <div
             class="hover-shadow p-3 text-center bg-white d-flex justify-content-center align-items-center flex-column"
           >
             <div class="img">
-              <img src="./images/image 31.png" alt="" class="img-fluid" />
+              <img
+                src="./images/Choose/image 31.png"
+                alt=""
+                class="img-fluid"
+              />
             </div>
             <h4>Keyword research</h4>
             <p class="fw-light my-3 text-center">
               It is a long established fact that a reader will be distracted
               by.It is a long established.
             </p>
-            <button class="btn bg-warning">Learn More</button>
+            <a href="#" class="btn bg-warning button_hover">Learn More</a>
           </div>
           <div
             class="hover-shadow p-3 text-center bg-white d-flex justify-content-center align-items-center flex-column"
@@ -432,7 +473,7 @@
             <div class="img">
               <div class="w-75 m-auto">
                 <img
-                  src="./images/image 32.png"
+                  src="./images/Choose/image 32.png"
                   alt=""
                   class="img-fluid w-100"
                 />
@@ -443,17 +484,17 @@
               It is a long established fact that a reader will be distracted
               by.It is a long established.
             </p>
-            <button class="btn bg-warning">Learn More</button>
+            <a href="#" class="btn bg-warning button_hover">Learn More</a>
           </div>
         </div>
       </div>
     </section>
     <!--SEO  -->
     <section
-      class="d-flex flex-column-reverse flex-lg-row p-md-5 p-2 w-100 justify-content-center align-items-center"
+      class="d-flex flex-column-reverse flex-lg-row p-md-5 p-2 w-100 justify-content-center align-items-center max-container"
     >
       <div class="img w-100 mb-3">
-        <img src="./images/image 34.png" alt="" class="w-100" />
+        <img src="./images/SEO/image 34.png" alt="" class="w-100" />
       </div>
       <div class="section-right w-100 px-md-5 px-1 text-center text-md-start">
         <h3 class="fs-1 mb-2 w-100">
@@ -469,7 +510,7 @@
           class="hover-shadow flex-column flex-md-row p-3 w-100 bg-white d-flex justify-content-around align-items-center"
         >
           <div class="img me-md-3">
-            <img src="./images/socialMedia.png" alt="" />
+            <img src="./images/SEO/socialMedia.png" alt="" />
           </div>
           <div class="text-center text-md-start mt-2">
             <h4>Social media marketing</h4>
@@ -483,7 +524,7 @@
           class="hover-shadow flex-column flex-md-row p-3 w-100 bg-white d-flex justify-content-around align-items-center"
         >
           <div class="img me-md-3">
-            <img src="./images/email.png" alt="" />
+            <img src="./images/SEO/email.png" alt="" />
           </div>
           <div class="text-center text-md-start mt-2">
             <h4>Email marketing</h4>
@@ -497,7 +538,7 @@
           class="hover-shadow flex-column flex-md-row p-3 w-100 bg-white d-flex justify-content-around align-items-center"
         >
           <div class="img me-md-3">
-            <img src="./images/SEO.png" alt="" />
+            <img src="./images/SEO/SEO.png" alt="" />
           </div>
           <div class="text-center text-md-start mt-2">
             <h4>SEO optimization</h4>
@@ -510,7 +551,7 @@
       </div>
     </section>
     <!-- client -->
-    <section class="">
+    <section class="max-container">
       <div
         class="card d-flex flex-md-row w-75 m-auto justify-content-center align-items-center p-3"
       >
@@ -521,7 +562,7 @@
         <div
           class="img w-25 d-flex justify-content-center align-items-center my-2"
         >
-          <img src="./images/Ellipse 114.png" alt="" />
+          <img src="./images/Clients/Ellipse 114.png" alt="" />
         </div>
         <div class="w-100 text-center">
           <h2>118</h2>
@@ -530,7 +571,7 @@
         <div
           class="img w-25 d-flex justify-content-center align-items-center my-2"
         >
-          <img src="./images/Ellipse 112.png" alt="" />
+          <img src="./images/Clients/Ellipse 112.png" alt="" />
         </div>
         <div class="w-100 text-center">
           <h2>6+</h2>
@@ -539,7 +580,7 @@
         <div
           class="img w-25 d-flex justify-content-center align-items-center my-2"
         >
-          <img src="./images/Ellipse 113.png" alt="" />
+          <img src="./images/Clients/Ellipse 113.png" alt="" />
         </div>
         <div class="w-100 text-center">
           <h2>14</h2>
@@ -549,9 +590,10 @@
     </section>
     <!-- website speed -->
     <section
-      class="d-flex w-100 justify-content-center align-items-center p-4 flex-column-reverse flex-md-row text-center text-md-start"
+      class="max-container d-flex w-7 m-auto justify-content-center align-items-center px-0 py-4 flex-column-reverse flex-md-row text-center text-md-start"
+      style="width: 90%"
     >
-      <div class="left-text w-100 p-md-5 p-2">
+      <div class="left-text w-100 p-2">
         <h2>Check Your Website <span class="purple-text"> Speed </span></h2>
         <p class="fw-light my-3">
           It is a long established fact that a reader will be distracted by the
@@ -560,32 +602,36 @@
         </p>
         <form class="d-flex w-100 flex-column flex-md-row align-items-center">
           <div
-            class="inputs w-50 d-flex me-md-2 mb-3 mb-md-0 flex-column flex-md-row"
+            class="inputs w-75 d-flex me-md-2 mb-3 mb-md-0 flex-column flex-md-row"
           >
             <input
               type="url"
               placeholder="Web URL"
-              class="form-control mb-3 mb-md-0"
+              class="form-control mb-3 mb-md-0 bg-body-tertiary rounded-0"
               required
             />
             <!-- <hr class="border-black" /> -->
             <input
               type="email"
               placeholder="Email Address"
-              class="form-control"
+              class="form-control bg-body-tertiary rounded-0"
               required
             />
           </div>
-          <button class="btn bg-warning">Submit</button>
+          <button class="btn bg-warning button_hover">Submit</button>
         </form>
       </div>
-      <div class="w-50">
-        <img src="./images/image 33.png" alt="" class="w-100" />
+      <div class="w-100">
+        <img
+          src="./images/Website-Speed/image 33.png"
+          alt=""
+          class="img-fluid w-100"
+        />
       </div>
     </section>
     <!-- Plans starts -->
     <section
-      class="d-flex flex-column justify-content-center align-items-center p-2 py-5 bg-body-tertiary"
+      class="max-container d-flex flex-column justify-content-center align-items-center p-2 py-5 bg-body-tertiary"
     >
       <div class="">
         <h3 class="text-center fw-semi-bold fs-1 mb-2">Our Plans</h3>
@@ -596,42 +642,45 @@
       >
         <div class="bg-white px-3 shadow-sm text-center py-5 m-3 hover-card">
           <h4 class="purple-text">Plus</h4>
-          <h4 class="my-5">
-            <sup>$</sup><span class="fs-1">46</span><sub>/Month</sub>
-          </h4>
+          <h3 class="my-5">
+            <sup>$</sup><span class="fs-1">46</span
+            ><sub style="font-size: 0.8rem">/Month</sub>
+          </h3>
           <p class="my-3">408GB Bandwidth</p>
           <p class="my-3">Business & Finance Analysing</p>
           <p class="my-3">24 Hour Support</p>
           <p class="my-3">Customer Management</p>
-          <button class="btn border-secondary"><span>Get Started</span></button>
+          <a href="#" class="btn border-secondary rounded-0 text-black">Get Started</a>
         </div>
         <div class="bg-white px-3 shadow-sm text-center py-5 m-3 hover-card">
           <h4 class="purple-text">Beginner</h4>
-          <h4 class="my-5">
-            <sup>$</sup><span class="fs-1">66</span><sub>/Month</sub>
-          </h4>
+          <h3 class="my-5">
+            <sup>$</sup><span class="fs-1">66</span
+            ><sub style="font-size: 0.8rem">/Month</sub>
+          </h3>
           <p class="my-3">408GB Bandwidth</p>
           <p class="my-3">Business & Finance Analysing</p>
           <p class="my-3">24 Hour Support</p>
           <p class="my-3">Customer Management</p>
-          <button class="btn border-secondary"><span>Get Started</span></button>
+          <a href="#" class="btn border-secondary rounded-0 text-black">Get Started</a>
         </div>
         <div class="bg-white px-3 shadow-sm text-center py-5 m-3 hover-card">
           <h4 class="purple-text">Advanced</h4>
-          <h4 class="my-5">
-            <sup>$</sup><span class="fs-1">86</span><sub>/Month</sub>
-          </h4>
+          <h3 class="my-5">
+            <sup>$</sup><span class="fs-1">86</span
+            ><sub style="font-size: 0.8rem">/Month</sub>
+          </h3>
           <p class="my-3">408GB Bandwidth</p>
           <p class="my-3">Business & Finance Analysing</p>
           <p class="my-3">24 Hour Support</p>
           <p class="my-3">Customer Management</p>
-          <button class="btn border-secondary"><span>Get Started</span></button>
+          <a href="#" class="btn border-secondary rounded-0 text-black">Get Started</a>
         </div>
       </div>
     </section>
     <!-- Team -->
     <section
-      class="p-md-5 p-2 d-flex w-100 justify-content-around align-items-center flex-column"
+      class="max-container p-md-5 p-2 d-flex w-100 justify-content-around align-items-center flex-column"
     >
       <div class="mb-5">
         <h2 class="text-center mb-2">
@@ -643,64 +692,64 @@
         </p>
       </div>
       <div
-        class="d-flex justify-content-center align-items-center w-75 flex-column flex-md-row gap-3 gap-lg-5"
+        class="d-flex justify-content-center align-items-center w-75 flex-column flex-lg-row gap-3 gap-lg-5"
       >
         <div class="p-3 hover-shadow-team w-100 text-center card">
-          <div class="w-50 m-auto">
-            <img src="./images/member1.png" alt="" class="w-100 m-auto" />
+          <div class="w-0 m-auto">
+            <img src="./images/Team/member1.png" alt="" class="w-100 m-auto" />
           </div>
           <h4 class="mt-3">Muriel Whee</h4>
           <p class="fw-light text-body-tertiary mb-3">Marketing Manager</p>
           <div>
-            <i class="ms-2 hover-icon text-black fab fa-google"></i>
-            <i class="ms-2 hover-icon text-black fab fa-instagram"></i>
-            <i class="ms-2 hover-icon text-black fab fa-twitter"></i>
-            <i class="ms-2 hover-icon text-black fab fa-facebook-f"></i>
+            <i class="ms-2 link-hover text-black fab fa-google"></i>
+            <i class="ms-2 link-hover text-black fab fa-instagram"></i>
+            <i class="ms-2 link-hover text-black fab fa-twitter"></i>
+            <i class="ms-2 link-hover text-black fab fa-facebook-f"></i>
           </div>
         </div>
         <div class="p-3 hover-shadow-team w-100 text-center card">
-          <div class="w-50 m-auto">
-            <img src="./images/member2.png" class="w-100 m-auto" alt="" />
+          <div class="w-0 m-auto">
+            <img src="./images/Team/member2.png" class="w-100 m-auto" alt="" />
           </div>
           <h4 class="mt-3">John Doe</h4>
           <p class="fw-light text-body-tertiary mb-3">Marketing Manager</p>
           <div>
-            <i class="ms-2 hover-icon text-black fab fa-google"></i>
-            <i class="ms-2 hover-icon text-black fab fa-instagram"></i>
-            <i class="ms-2 hover-icon text-black fab fa-twitter"></i>
-            <i class="ms-2 hover-icon text-black fab fa-facebook-f"></i>
+            <i class="ms-2 link-hover text-black fab fa-google"></i>
+            <i class="ms-2 link-hover text-black fab fa-instagram"></i>
+            <i class="ms-2 link-hover text-black fab fa-twitter"></i>
+            <i class="ms-2 link-hover text-black fab fa-facebook-f"></i>
           </div>
         </div>
         <div class="p-3 hover-shadow-team w-100 text-center card">
-          <div class="w-50 m-auto">
-            <img src="./images/member3.png" alt="" class="w-100 m-auto" />
+          <div class="w-0 m-auto">
+            <img src="./images/Team/member3.png" alt="" class="w-100 m-auto" />
           </div>
           <h4 class="mt-3">Clay Porter</h4>
           <p class="fw-light text-body-tertiary mb-3">Marketing Manager</p>
           <div>
-            <i class="ms-2 hover-icon text-black fab fa-google"></i>
-            <i class="ms-2 hover-icon text-black fab fa-instagram"></i>
-            <i class="ms-2 hover-icon text-black fab fa-twitter"></i>
-            <i class="ms-2 hover-icon text-black fab fa-facebook-f"></i>
+            <i class="ms-2 link-hover text-black fab fa-google"></i>
+            <i class="ms-2 link-hover text-black fab fa-instagram"></i>
+            <i class="ms-2 link-hover text-black fab fa-twitter"></i>
+            <i class="ms-2 link-hover text-black fab fa-facebook-f"></i>
           </div>
         </div>
         <div class="p-3 hover-shadow-team w-100 text-center card">
-          <div class="w-50 m-auto">
-            <img src="./images/member4.png" class="w-100 m-auto" alt="" />
+          <div class="w-0 m-auto">
+            <img src="./images/Team/member4.png" class="w-100 m-auto" alt="" />
           </div>
           <h4 class="mt-3">Doug Norm</h4>
           <p class="fw-light text-body-tertiary mb-3">Marketing Manager</p>
           <div>
-            <i class="ms-2 hover-icon text-black fab fa-google"></i>
-            <i class="ms-2 hover-icon text-black fab fa-instagram"></i>
-            <i class="ms-2 hover-icon text-black fab fa-twitter"></i>
-            <i class="ms-2 hover-icon text-black fab fa-facebook-f"></i>
+            <i class="ms-2 link-hover text-black fab fa-google"></i>
+            <i class="ms-2 link-hover text-black fab fa-instagram"></i>
+            <i class="ms-2 link-hover text-black fab fa-twitter"></i>
+            <i class="ms-2 link-hover text-black fab fa-facebook-f"></i>
           </div>
         </div>
       </div>
     </section>
     <!-- Slider -->
-    <section class="px-md-4">
+    <section class="px-md-4 max-container">
       <div class="">
         <h2 class="text-center fw-semibold fs-1">Our clients say</h2>
         <p class="text-center mb-5 w-75 px-md-5 py-2 fw-light mx-auto">
@@ -711,53 +760,65 @@
       <div class="swiper mySwiper">
         <div class="swiper-wrapper w-100">
           <div
-            class="card d-flex flex-column align-items-center p-2 mx-md-4 me-1 ms-0 bg-white swiper-slide"
-            style="background: url(./images/quote.png) no-repeat top left/50%"
-          >
-            <p class="mt-2 text-center fw-light">
-              It is a long established fact that a reader will be distracted by
-              the readable content .It is a
-            </p>
-            <div class="img my-3"><img src="./images/first.png" alt="" /></div>
-            <p class="fw-semibold text-center">Clay Porter</p>
-            <p class="text-center fw-light">Ship builder</p>
-          </div>
-          <div
-            class="card d-flex flex-column justify-content-center align-items-center p-2 mx-md-4 me-1 ms-0 bg-white swiper-slide"
-            style="background: url(./images/quote.png) no-repeat top left/50%"
+            class="card d-flex flex-column align-items-center p-2 bg-white swiper-slide"
+            style="
+              background: url(./images/Swiper/quote.png) no-repeat top left/50%;
+            "
           >
             <p class="mt-2 text-center fw-light">
               It is a long established fact that a reader will be distracted by
               the readable content .It is a
             </p>
             <div class="img my-3">
-              <img src="./images/second.png" alt="" />
+              <img src="./images/Swiper/first.png" alt="" />
             </div>
             <p class="fw-semibold text-center">Clay Porter</p>
             <p class="text-center fw-light">Ship builder</p>
           </div>
           <div
-            class="card d-flex flex-column justify-content-center align-items-center p-2 mx-md-4 me-1 ms-0 bg-white swiper-slide"
-            style="background: url(./images/quote.png) no-repeat top left/50%"
-          >
-            <p class="mt-2 text-center fw-light">
-              It is a long established fact that a reader will be distracted by
-              the readable content .It is a
-            </p>
-            <div class="img my-3"><img src="./images/third.png" alt="" /></div>
-            <p class="fw-semibold text-center">Clay Porter</p>
-            <p class="text-center fw-light">Ship builder</p>
-          </div>
-          <div
-            class="card d-flex flex-column justify-content-center align-items-center p-2 mx-md-4 me-1 ms-0 bg-white swiper-slide"
-            style="background: url(./images/quote.png) no-repeat top left/50%"
+            class="card d-flex flex-column justify-content-center align-items-center p-2 bg-white swiper-slide"
+            style="
+              background: url(./images/Swiper/quote.png) no-repeat top left/50%;
+            "
           >
             <p class="mt-2 text-center fw-light">
               It is a long established fact that a reader will be distracted by
               the readable content .It is a
             </p>
             <div class="img my-3">
-              <img src="./images/fourth.png" alt="" />
+              <img src="./images/Swiper/second.png" alt="" />
+            </div>
+            <p class="fw-semibold text-center">Clay Porter</p>
+            <p class="text-center fw-light">Ship builder</p>
+          </div>
+          <div
+            class="card d-flex flex-column justify-content-center align-items-center p-2 bg-white swiper-slide"
+            style="
+              background: url(./images/Swiper/quote.png) no-repeat top left/50%;
+            "
+          >
+            <p class="mt-2 text-center fw-light">
+              It is a long established fact that a reader will be distracted by
+              the readable content .It is a
+            </p>
+            <div class="img my-3">
+              <img src="./images/Swiper/third.png" alt="" />
+            </div>
+            <p class="fw-semibold text-center">Clay Porter</p>
+            <p class="text-center fw-light">Ship builder</p>
+          </div>
+          <div
+            class="card d-flex flex-column justify-content-center align-items-center p-2 bg-white swiper-slide"
+            style="
+              background: url(./images/Swiper/quote.png) no-repeat top left/50%;
+            "
+          >
+            <p class="mt-2 text-center fw-light">
+              It is a long established fact that a reader will be distracted by
+              the readable content .It is a
+            </p>
+            <div class="img my-3">
+              <img src="./images/Swiper/fourth.png" alt="" />
             </div>
             <p class="fw-semibold text-center">Clay Porter</p>
             <p class="text-center fw-light">Ship builder</p>
@@ -768,7 +829,7 @@
     </section>
     <!-- Subscribe -->
     <section
-      class="Subscribe d-flex justify-content-center align-items-center w-100 mt-5"
+      class="max-container Subscribe d-flex justify-content-center align-items-center w-100 mt-5"
     >
       <div
         class="container bg-body-tertiary p-md-5 px-2 py-5 d-flex justify-content-center align-items-center flex-column w- text-center"
@@ -787,35 +848,40 @@
             class="form-control mx-md-3 my-2 my-md-0"
             required
           />
-          <button class="btn bg-primary text-white">Subscribe</button>
+          <button class="btn bg-primary text-white subscribe-hover">
+            Subscribe
+          </button>
         </form>
       </div>
     </section>
     <!-- footer -->
-    <footer class="d-flex flex-column justify-content-between p-2 w-100">
+    <footer
+      class="max-container d-flex flex-column justify-content-between p-2 w-100"
+    >
       <div
         class="footer-top w-75 mx-auto my-3 d-flex flex-column justify-content-center align-items-center"
       >
         <div class="fw-semi-bold fs-3 mb-3">
-          <span>nuvosa</span> <img src="./images/nav_red_dot.png" alt="" />
+          <span>nuvosa</span>
+          <img src="./images/NavBar/nav_red_dot.png" alt="" />
         </div>
         <ul
           class="list-unstyled d-flex w-50 justify-content-around m-auto flex-column flex-md-row text-center"
         >
           <li class="my-2">
-            <a href="#" class="nav-link">Overview</a>
+            <a href="#" class="nav-link link-hover">Overview</a>
           </li>
           <li class="my-2">
-            <a href="#" class="nav-link">Pricing</a>
+            <a href="#" class="nav-link link-hover">Pricing</a>
           </li>
           <li class="my-2">
-            <a href="#" class="nav-link">Careers</a>
+            <a href="#" class="nav-link link-hover">Careers</a>
           </li>
           <li class="my-2">
-            <a href="#" class="nav-link">Help</a>
+            <a href="#" class="nav-link link-hover">Help</a>
           </li>
           <li class="my-2">
-            <a href="#" class="nav-link">Privacy</a>
+            <a href="#" class="nav-link link-hover">Privacy</a>
           </li>
         </ul>
       </div>
@@ -830,13 +896,13 @@
           class="list-unstyled fw-light text-body-tertiary d-flex justify-content-around align-items-center flex-column flex-md-row"
         >
           <li class="me-md-2">
-            <a href="#" class="nav-link"> Terms of use </a>
+            <a href="#" class="nav-link link-hover"> Terms of use </a>
           </li>
           <li class="me-md-2">
-            <a href="#" class="nav-link"> copyright & trademark </a>
+            <a href="#" class="nav-link link-hover"> copyright & trademark </a>
           </li>
           <li class="me-md-2">
-            <a href="#" class="nav-link"> Policy </a>
+            <a href="#" class="nav-link link-hover"> Policy </a>
           </li>
         </ul>
       </div>

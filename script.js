@@ -17,7 +17,6 @@ menu.addEventListener("click", () => {
 plans_cards.forEach((plan) => {
   plan.addEventListener("mouseover", () => {
     plan.firstElementChild.style.color = "white";
-
     plan.lastElementChild.style.background = "#FAD725";
     plan.lastElementChild.classList.remove("border-secondary");
   });
@@ -26,7 +25,6 @@ plans_cards.forEach((plan) => {
 plans_cards.forEach((plan) => {
   plan.addEventListener("mouseout", () => {
     plan.firstElementChild.style.color = "#6f77f1";
-
     plan.lastElementChild.style.background = "none";
     plan.lastElementChild.classList.add("border-secondary");
   });
