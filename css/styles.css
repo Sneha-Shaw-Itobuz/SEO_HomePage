@@ -8,11 +8,6 @@
   padding: 0;
 }
 
-.top-section {
-  background: url(../images/Top_Section/Group\ 673.png) no-repeat  left;
-  background-size: contain;
-}
-
 .max-container {
   max-width: 1920px;
   margin: auto;
@@ -80,10 +75,16 @@
   transform-origin: bottom left;
 }
 
+.top-section {
+  background: url(../images/Top_Section/Group\ 673.png) no-repeat left;
+  background-size: contain;
+}
+
 .business {
   /* background-color: rgba(242, 242, 242, 0.3); */
   background: url(../images/Business/Vector\ 17.svg) no-repeat top/100%,
-    url(../images/Business/Vector\ 18.svg) no-repeat 100%/100%, rgba(242, 242, 242, 0.3);
+    url(../images/Business/Vector\ 18.svg) no-repeat 100%/100%,
+    rgba(242, 242, 242, 0.3);
 }
 
 .purple-text {
@@ -103,6 +104,14 @@
   color: white !important;
   cursor: pointer;
   transform: scale(1.05);
+}
+
+.hover-card:hover .purple-text {
+  color: #fff;
+}
+
+.hover-card:hover .btn {
+  background-color: #fad725;
 }
 
 .hover-shadow-team:hover {
@@ -145,31 +154,12 @@
   cursor: pointer;
 }
 
-.zig-zag {
-  top: 6rem;
-  min-width: fit-content;
-}
-
-.womandiv {
-  min-width: fit-content;
-}
-
-.blue-box {
-  min-width: fit-content;
-  top: 1rem;
-  left: 7rem;
-}
-
 .creative {
   margin-right: auto;
   z-index: 2;
   width: 230px;
   height: 110px;
   opacity: 0.95;
-}
-
-.plans {
-  height: 80vh;
 }
 
 @media (min-width: 0px) {
