@@ -9,7 +9,8 @@
 }
 
 .top-section {
-  background: url(../images/Top_Section/Group\ 673.png) no-repeat top left/50%;
+  background: url(../images/Top_Section/Group\ 673.png) no-repeat  left;
+  background-size: contain;
 }
 
 .max-container {
@@ -31,13 +32,17 @@
   opacity: 0.96 !important;
 }
 
+.contact-hover {
+  border-radius: 3px !important;
+}
+
 .contact-hover:hover {
   color: white !important;
   background-color: black !important;
 }
 
 .button_hover {
-  border-radius: 0 !important;
+  border-radius: 3px !important;
 }
 
 .button_hover:hover {
@@ -45,7 +50,7 @@
 }
 
 .subscribe-hover {
-  border-radius: 0 !important;
+  border-radius: 3px !important;
 }
 
 .subscribe-hover:hover {
@@ -76,9 +81,9 @@
 }
 
 .business {
-  background-color: rgba(242, 242, 242, 0.3);
+  /* background-color: rgba(242, 242, 242, 0.3); */
   background: url(../images/Business/Vector\ 17.svg) no-repeat top/100%,
-    url(../images/Business/Vector\ 18.svg) no-repeat top/100%;
+    url(../images/Business/Vector\ 18.svg) no-repeat 100%/100%, rgba(242, 242, 242, 0.3);
 }
 
 .purple-text {
@@ -186,7 +191,6 @@
   h1 {
     font-size: 4rem !important;
   }
-
 }
 
 @media (min-width: 745px) {
