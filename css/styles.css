@@ -118,11 +118,6 @@
   margin-top: 1.2rem;
 }
 
-.swiper-slide-active {
-  transform: scale(1.1) !important;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
 .hover-optimum {
   background-color: red !important;
   position: relative;
@@ -178,9 +173,8 @@
     font-family: "Inter", sans-serif;
   }
 
-  .slider-card {
-    width: 80%;
-    left: 10%;
+  .swiper-slide-active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
   .Subscribe .container {
@@ -193,10 +187,6 @@
     font-size: 4rem !important;
   }
 
-  .slider-card {
-    width: 40%;
-    left: 30%;
-  }
 }
 
 @media (min-width: 745px) {
@@ -208,6 +198,10 @@
     padding: 0.3rem;
     rotate: -8.23deg;
     font-size: 3rem;
+  }
+
+  .swiper-slide-active {
+    transform: scale(1.1) !important;
   }
 }
 
