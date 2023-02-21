@@ -193,7 +193,7 @@ body {
 
   .expert::before {
     content: "";
-    /* position: absolute; */
+    position: absolute;
     width: 10px;
     height: 10px;
     background-color: #6f77f1;
