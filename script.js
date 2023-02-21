@@ -11,6 +11,21 @@ menu.addEventListener("click", () => {
   }
 });
 
+const searchIcon = document.querySelector(".search-icon");
+const searchBar = document.querySelector(".search-bar");
+
+searchIcon.addEventListener("click", () => {
+  if (searchBar.classList.contains("hide")) {
+    searchBar.classList.remove("hide");
+    searchBar.classList.add("show");
+  } else {
+    searchBar.classList.remove("show");
+    searchBar.classList.add("hide");
+  }
+});
+
+// slider
+
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 20,
