@@ -76,14 +76,14 @@
 }
 
 .top-section {
-  background: url(../images/Top_Section/Group\ 673.png) no-repeat left;
+  background: url(../images/Top_Section/Group-673.png) no-repeat left;
   background-size: contain;
 }
 
 .business {
   /* background-color: rgba(242, 242, 242, 0.3); */
-  background: url(../images/Business/Vector\ 17.svg) no-repeat top/100%,
-    url(../images/Business/Vector\ 18.svg) no-repeat 100%/100%,
+  background: url(../images/Business/Vector-17.svg) no-repeat top/100%,
+    url(../images/Business/Vector-18.svg) no-repeat 100%/100%,
     rgba(242, 242, 242, 0.3);
 }
 
@@ -162,7 +162,7 @@
   opacity: 0.95;
 }
 
-@media (min-width: 0px) {
+@media (min-width: 200px) {
   h1 {
     font-size: 2rem !important;
     font-family: "Inter", sans-serif;
@@ -190,8 +190,52 @@
     color: #6f77f1;
     border: 2px solid #6f77f1;
     padding: 0.3rem;
-    rotate: -8.23deg;
+    transform: rotate(-8.23deg);
     font-size: 3rem;
+  }
+
+  .expert::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #6f77f1;
+    border-radius: 100%;
+    top: -5px;
+    left: -6px;
+  }
+
+  .dot::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #6f77f1;
+    border-radius: 100%;
+    bottom: -5px;
+    left: -6px;
+  }
+
+  .dot::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #6f77f1;
+    border-radius: 100%;
+    bottom: -5px;
+    right: -6px;
+  }
+
+  .expert::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #6f77f1;
+    border-radius: 100%;
+    top: -5px;
+    right: -6px;
   }
 
   .swiper-slide-active {
